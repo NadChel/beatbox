@@ -1,13 +1,13 @@
 package org.example;
 
+import com.seryozha.commons.MidiUtil;
+import com.seryozha.commons.UIUtil;
+import com.seryozha.commons.Util;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.ArrayUtils;
-import org.example.demos.sequencer.beatBox.exceptions.IllegalPatternException;
-import org.example.shared.utilities.MidiUtil;
-import org.example.shared.utilities.UIUtil;
-import org.example.shared.utilities.Util;
+import org.example.exceptions.IllegalPatternException;
 
 import javax.sound.midi.MidiSystem;
 import javax.sound.midi.Sequence;

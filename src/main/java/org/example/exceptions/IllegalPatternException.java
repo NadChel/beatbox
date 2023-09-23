@@ -1,6 +1,6 @@
 package org.example.exceptions;
 
-import org.example.demos.sequencer.beatBox.ManifestComponent;
+import org.example.ManifestComponent;
 
 public class IllegalPatternException extends Exception {
     private static final String FORMAT =

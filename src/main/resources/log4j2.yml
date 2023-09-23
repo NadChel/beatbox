@@ -1,0 +1,21 @@
+Configuration:
+
+  Appenders:
+    Console:
+      name: CONSOLE
+      PatternLayout:
+        disableAnsi: false
+        pattern: "---- %d{DATE}%n%highlight{%-5p [%t] : %m%n%n}"
+      target: SYSTEM_OUT
+    File:
+      name: FILE
+      PatternLayout:
+        pattern: "---- %d{DATE}%n%-5p [%t] : %m%n%n"
+      fileName: "src/main/resources/log.txt"
+      append: false
+  Loggers:
+    Root:
+      level: debug
+      AppenderRef:
+         - ref: FILE
+         - ref: CONSOLE

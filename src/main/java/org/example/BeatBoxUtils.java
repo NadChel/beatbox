@@ -1,10 +1,11 @@
 package org.example;
 
-import org.example.demos.sequencer.beatBox.exceptions.IllegalPropertyException;
-import org.example.demos.sequencer.beatBox.exceptions.IllegalPropertyException.PropertyIssue;
+import org.example.exceptions.IllegalPropertyException;
 
 import java.util.Collection;
 import java.util.regex.Pattern;
+
+import static org.example.exceptions.IllegalPropertyException.PropertyIssue;
 
 public class BeatBoxUtils {
     public static void requireNonEmpty(Collection<?> collection, String propertyName) {

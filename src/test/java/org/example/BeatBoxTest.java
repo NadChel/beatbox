@@ -1,17 +1,13 @@
-package org.example.beatBox;
+package org.example;
 
-import org.example.demos.sequencer.beatBox.BeatBox;
-import org.example.demos.sequencer.beatBox.BeatBoxConfiguration;
-import org.example.demos.sequencer.beatBox.InstrumentFactory;
-import org.example.demos.sequencer.beatBox.PressedButtonStrategy;
 import org.junit.Test;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Stream;
 
-import static org.example.demos.sequencer.beatBox.MidiInstrument.ACOUSTIC_SNARE;
-import static org.example.demos.sequencer.beatBox.MidiInstrument.DRUMSTICKS;
+import static org.example.MidiInstrument.ACOUSTIC_SNARE;
+import static org.example.MidiInstrument.DRUMSTICKS;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 

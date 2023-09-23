@@ -1,6 +1,5 @@
-package org.example.beatBox;
+package org.example;
 
-import org.example.demos.sequencer.beatBox.PressedButtonStrategy;
 import org.junit.Test;
 
 import javax.swing.*;

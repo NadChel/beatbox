@@ -1,8 +1,6 @@
-package org.example.beatBox;
+package org.example;
 
-import org.example.demos.sequencer.beatBox.BeatBoxUtils;
-import org.example.demos.sequencer.beatBox.ManifestComponent;
-import org.example.demos.sequencer.beatBox.exceptions.IllegalPropertyException;
+import org.example.exceptions.IllegalPropertyException;
 import org.junit.Test;
 
 import java.util.Collections;

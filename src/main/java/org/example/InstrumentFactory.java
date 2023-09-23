@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 
-import static org.example.demos.sequencer.beatBox.MidiInstrument.*;
+import static org.example.MidiInstrument.*;
 
 public final class InstrumentFactory {
     public static Collection<MidiInstrument> getKathysInstruments() {
