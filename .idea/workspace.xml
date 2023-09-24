@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="443e83a5-9c1f-4cb4-b7d1-080b5c27580a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.yml" afterDir="false" />
+    <list default="true" id="443e83a5-9c1f-4cb4-b7d1-080b5c27580a" name="Changes" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BeatBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BeatBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BeatBoxUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BeatBoxUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/InstrumentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/InstrumentFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ManifestParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ManifestParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exceptions/IllegalPatternException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions/IllegalPatternException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BeatBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BeatBoxTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BeatBoxUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BeatBoxUtilsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/PressedButtonStrategyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/PressedButtonStrategyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +17,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -84,11 +75,24 @@
       <updated>1695489764277</updated>
       <workItem from="1695489767066" duration="2146000" />
       <workItem from="1695494728628" duration="5086000" />
-      <workItem from="1695499956154" duration="308000" />
+      <workItem from="1695499956154" duration="571000" />
+      <workItem from="1695500986834" duration="905000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1695500383416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695500383416</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
